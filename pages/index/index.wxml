@@ -1,7 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <text class="userinfo-nickname">{{userInfo}}</text>
+  <view class="flex-wrp" style="flex-direction:row">
+    <view class="flex-item">我的笔记</view>
+    <view class="flex-item">我的行程</view>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
