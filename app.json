@@ -9,5 +9,6 @@
     "navigationBarBackgroundColor": "#bcbcbc",
     "navigationBarTitleText": "可乐工具箱",
     "navigationBarTextStyle":"white"
-  }
+  },
+  "debug": true
 }

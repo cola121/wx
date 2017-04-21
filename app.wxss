@@ -8,6 +8,9 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
-.page{
+.page {
   font-family: "微软雅黑";
+}
+.d-flex {
+  display:flex;
 }

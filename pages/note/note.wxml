@@ -1,5 +1,7 @@
 <view class="page">
     <view>
-    
+        <text class="d-line note-title">这是我的笔记</text>
+        <text class="note-time">2017年4月5日  12：29</text>
+        <image class="note-do-more" src="/images/do_more.png"></image>
     </view>
 </view>
