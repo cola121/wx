@@ -5,3 +5,7 @@
         <image class="note-do-more" src="/images/do_more.png"></image>
     </view>
 </view>
+<view>
+    <textarea value="{{textdata}}"/>
+</view>
+<button bindtap="RequestData" value="Button">Button</button>

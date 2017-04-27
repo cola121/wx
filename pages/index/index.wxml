@@ -1,7 +1,65 @@
 <!--index.wxml-->
 <view class="page">
-  <view class="flex-wrp" style="flex-direction:column">
-    <navigator url="../note/note" class="flex-item bg_blue">我的笔记</navigator>
-    <navigator class="flex-item bg_green">我的行程</navigator>
-  </view>
+    <swiper indicator-dots="{{indicatorDots}}" current="{{current}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" 
+      duration="{{duration}}" circular="{{circular}}">
+        <block>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期一</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期二</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期三</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期四</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期五</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期六</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期日</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+        </block>
+    </swiper>
 </view>

@@ -6,8 +6,8 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#bcbcbc",
-    "navigationBarTitleText": "可乐工具箱",
+    "navigationBarBackgroundColor": "#4dc4ff",
+    "navigationBarTitleText": "可乐课程表",
     "navigationBarTextStyle":"white"
   },
   "debug": true

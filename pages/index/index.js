@@ -4,7 +4,13 @@ var app = getApp()
 Page({
   data: {
     motto: 'Hello World',
-    userInfo: {}
+    userInfo: {},
+    indicatorDots: false,
+    autoplay: false,
+    interval: 5000,
+    duration: 600,
+    current: 0,
+    circular:true
   },
   //事件处理函数
   bindViewTap: function() {
