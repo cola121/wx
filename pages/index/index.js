@@ -28,5 +28,42 @@ Page({
         userInfo:userInfo
       })
     })
-  }
+
+    wx.request({
+        url: 'https://m.hankele.cn',
+        data: {},
+        method: 'GET', 
+        // header: {}, // 设置请求的 header
+        success: function(res){
+          that.setData({movies:res.data.data});
+          console.log(res.data);
+        },
+        fail: function() {
+          // fail
+        },
+        complete: function() {
+          // complete
+        }
+    })
+      
+  },
+  RequestData:function(){
+       var that=this;
+        wx.request({
+          url: 'https://m.hankele.cn',
+          data: {},
+          method: 'GET', 
+          // header: {}, // 设置请求的 header
+          success: function(res){
+            that.setData({textdata:res.data});
+            console.log(res.data);
+          },
+          fail: function() {
+            // fail
+          },
+          complete: function() {
+            // complete
+          }
+        })
+    }
 })

@@ -59,3 +59,48 @@ swiper{
 .bg_green{
   background-color: #00FF7F;
 }
+
+ .poster {
+      width: 130rpx;
+      height: 171rpx;
+      margin-right: 20rpx;
+}
+
+.item {
+    padding: 20rpx 40rpx;
+    cursor: pointer;
+    background: #FFFFFF;
+    margin: 10rpx;
+    box-shadow: 0 0 7px #e6e6e6
+}
+.item-info {
+  width:76%;
+  height: inherit;
+  float: right;
+  font-size: 0.8em;
+}
+.title {
+  font-size: 0.9em;
+  margin-bottom: 4px;
+}
+.infos {
+  font-size:0.7em;
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+  overflow:hidden; 
+  line-height: 23px;
+}
+.title, .infos {
+  display: block;
+}
+.item-points {
+  float:right;
+  color: #00cccc;
+}
+.item-points-first {
+  font-size: 1.3em;
+}
+.item-year {
+  float:right;
+  margin-right:10px
+}

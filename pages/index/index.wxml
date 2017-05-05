@@ -1,65 +1,21 @@
 <!--index.wxml-->
-<view class="page">
-    <swiper indicator-dots="{{indicatorDots}}" current="{{current}}"
-      autoplay="{{autoplay}}" interval="{{interval}}" 
-      duration="{{duration}}" circular="{{circular}}">
-        <block>
-          <swiper-item>
-              <view class="swiper-item">
-                  <view class="t-head">星期一</view>
-                  <view class="t-body">
-                  测试
-                  </view>
-              </view>
-          </swiper-item>
-          <swiper-item>
-              <view class="swiper-item">
-                  <view class="t-head">星期二</view>
-                  <view class="t-body">
-                  测试
-                  </view>
-              </view>
-          </swiper-item>
-          <swiper-item>
-              <view class="swiper-item">
-                  <view class="t-head">星期三</view>
-                  <view class="t-body">
-                  测试
-                  </view>
-              </view>
-          </swiper-item>
-          <swiper-item>
-              <view class="swiper-item">
-                  <view class="t-head">星期四</view>
-                  <view class="t-body">
-                  测试
-                  </view>
-              </view>
-          </swiper-item>
-          <swiper-item>
-              <view class="swiper-item">
-                  <view class="t-head">星期五</view>
-                  <view class="t-body">
-                  测试
-                  </view>
-              </view>
-          </swiper-item>
-          <swiper-item>
-              <view class="swiper-item">
-                  <view class="t-head">星期六</view>
-                  <view class="t-body">
-                  测试
-                  </view>
-              </view>
-          </swiper-item>
-          <swiper-item>
-              <view class="swiper-item">
-                  <view class="t-head">星期日</view>
-                  <view class="t-body">
-                  测试
-                  </view>
-              </view>
-          </swiper-item>
-        </block>
-    </swiper>
+<view class="container">
+    <block wx:for="{{movies}}" wx:for-item="movie">
+    <navigator url="../info/info?id={{ movie.id }}">
+    <view class="item">
+        <image class="poster" src="{{ movie.image }}"></image>
+        <view class="item-info">
+            <view class="item-points">
+                <text class="item-points-first">{{movie.pointsa}}</text><text class="">.{{movie.pointsb}}</text>
+            </view>
+            <text class="title">{{movie.name}}</text>
+            <text class="infos">导 演 : {{movie.director}}</text>
+            <text class="infos">主 演 : {{movie.star}}</text>
+            <view class="infos">
+                <text>类 型 : {{movie.tag}}</text><text class="item-year"> 年 代 : {{movie.year}}</text>
+            </view>
+        </view>
+    </view>
+    </navigator>
+    </block>
 </view>

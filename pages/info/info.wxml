@@ -1,0 +1,8 @@
+<view class="contain">
+    <view class="top-info">
+        <image class="poster" mode="aspectFit" src="{{movie.image}}"></image>
+        <view class="info-contant">
+            <text>{{movie.c_name}}  {{movie.e_name}}</text>
+        </view>
+    </view>
+</view>

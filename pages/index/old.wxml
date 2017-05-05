@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<view class="page">
+    <swiper indicator-dots="{{indicatorDots}}" current="{{current}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" 
+      duration="{{duration}}" circular="{{circular}}">
+        <block>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期一</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期二</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期三</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期四</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期五</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期六</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+          <swiper-item>
+              <view class="swiper-item">
+                  <view class="t-head">星期日</view>
+                  <view class="t-body">
+                  测试
+                  </view>
+              </view>
+          </swiper-item>
+        </block>
+    </swiper>
+    <button bindtap="RequestData" value="Button">Button</button>
+</view>

@@ -1,0 +1,23 @@
+.contain {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: scroll;
+  background: "#ffffff";
+}
+.poster{
+    height:250rpx;
+}
+.top-info{
+    padding: 20rpx 40rpx;
+    background: #FFFFFF;
+    margin: 10rpx;
+    box-shadow: 0 0 7px #e6e6e6
+}
+.info-contant {
+    width:72%;
+    height: inherit;
+    float: right;
+    font-size: 0.8em;
+}

@@ -2,13 +2,42 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/note/note"
+    "pages/movies/movies",
+    "pages/user/user",
+    "pages/info/info"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#4dc4ff",
-    "navigationBarTitleText": "可乐课程表",
+    "navigationBarTitleText": "可乐电影社区",
     "navigationBarTextStyle":"white"
+  },
+   "tabBar": {
+    "color": "#666666",  
+    "selectedColor": "#4dc4ff",  
+    "borderStyle": "white",  
+    "backgroundColor": "#ffffff", 
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index.png",  
+      "selectedIconPath": "images/index-after.png"  
+    },{
+      "pagePath": "pages/movies/movies",
+      "text": "片库",
+      "iconPath": "images/movies.png",  
+      "selectedIconPath": "images/movies-after.png"  
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "论坛",
+      "iconPath": "images/discuz.png",  
+      "selectedIconPath": "images/discuz-after.png"  
+    },{
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "images/me.png",  
+      "selectedIconPath": "images/me-after.png"  
+    }]
   },
   "debug": true
 }
